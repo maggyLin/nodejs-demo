@@ -4,6 +4,7 @@ var http = require('http');
 var url = require('url');
 
 var ejs = require('ejs');
+// npm install ejs --save  
 
 http.createServer(function(req,res){
 
