@@ -42,7 +42,7 @@ mongo_db.connect(conn_url, function (err, db) {
     // );
 
 
-    // insert 多筆資料  -------------------------------------------
+    // 多筆資料  -------------------------------------------
     var myobj =  [
         { name: 'kk', sex: 'woman'},
         { name: 'JJ',  sex: 'man'},
